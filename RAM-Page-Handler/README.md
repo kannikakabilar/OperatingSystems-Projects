@@ -10,5 +10,5 @@ The RAM Page Handler is a virtual memory simulator. It manages page table operat
 2. Implement 4 different page replacement algorithms: FIFO, LRU, Clock, OPT (remove the file that has not been used for the longest time). <br/>
 The 4 page replacement algorithms were compared and analyzed on its performance as shown below. <br/><br/>
 
-![Quote](https://github.com/kannikakabilar/RAM-Page-Handler/blob/main/analysis_shot.png)
+![Quote](https://github.com/kannikakabilar/OperatingSystems-Projects/blob/main/RAM-Page-Handler/analysis_shot.png)
     
