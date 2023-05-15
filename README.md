@@ -1,5 +1,12 @@
 # OperatingSystems Projects
 This repo contains projects relating to OS concepts: Multithreading, RAM Page Handling, Ext2-FileSystems.
+## Kan Batch OS Model
+The Kan Batch OS Model is a Batch Operating System Simulator designed to demonstrate its functionality. Currently, this model supports running batches of Python, C, and, Java program files. Furthermore, this model can be easily modified to support the execution of other program files. This simulator is designed to run in a Linux hosted environment as it uses 'ls' command to collect the list of programming files to execute.
+### How it works
+Batch OS executes jobs in batches, so this model reflects the design by grouping files of the same programming language, and executing the collected files all at once.  ie: All Python files will be collected and executed together, then all C files will be collected and executed together and so on. Batch OS does not support interactive programs that require user's input during execution. An image of the model being executed is shown below.
+<p align="center">
+  <img alt="Light" src="osp1.png" width="90%">
+</p>
 ## Multi-Thread Synchronization
 Utilizes mutex locks to handle various jobs executing in multiple threads
 ## RAM Page Handler
